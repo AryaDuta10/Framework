@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1647393798760,
+      "NIM": "1941720033",
+      "nama": "Dwityantherrys Bekti Utomo",
+      "alamat": "Jln.mawar melati",
+      "hp": "08123232323",
+      "angkatan": "2019",
+      "status": "Magang"
+    },
+    {
+      "id": 1647393959017,
+      "NIM": "1941720097",
+      "nama": "Arya Duta Nusa",
+      "alamat": "Jln.Sungai",
+      "hp": "08123223213",
+      "angkatan": "2019",
+      "status": "Melepas Masa Lajang"
+    },
+    {
+      "id": 1647394076387,
+      "NIM": "1941720232",
+      "nama": "Muhammad Reza Pahlevi",
+      "alamat": "Jln.Tanggul",
+      "hp": "08123223213",
+      "angkatan": "2019",
+      "status": "Habis LoseStreak"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
