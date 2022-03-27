@@ -13,7 +13,7 @@ class Mahasiswa extends Component {
             alamat: "",
             hp: "",
             angkatan: 1,
-            status: ""
+            status: "",
         }
     }
 
