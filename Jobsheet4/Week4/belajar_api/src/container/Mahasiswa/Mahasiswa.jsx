@@ -50,7 +50,8 @@ class Mahasiswa extends Component {
         });
     }
 
-    handleTombolSimpan = () => {
+    handleTombolSimpan = (e) => {
+        e.preventDefault();
         fetch('http://localhost:8000/posts', {
             method: 'POST',
             headers: {
@@ -62,6 +63,21 @@ class Mahasiswa extends Component {
             .then((Response) => {
                 this.ambilDataDariServerAPI();
             });
+            this.ClearForm();
+    }
+    ClearForm =() =>{
+        this.setState({
+            insertMhs: {
+                id: 1,
+                NIM: 1,
+                nama: "",
+                alamat: "",
+                hp: "",
+                angkatan: 1,
+                status: "",
+                waktu: "",
+            }
+        })
     }
 
     render() {
